@@ -1,4 +1,4 @@
-const temperature = 45;
+// const temperature = 45;
 
 // if (temperature < 0) {
 //   console.log("Make sure you pick out a scarf!");
@@ -10,10 +10,9 @@ const temperature = 45;
 
 // console.log("Now you're ready to go outside!");
 
-
-if (temperature < -40 && temperature > 40) {
-  console.log("Maybe going outside isn't such a great idea…");
-}
+// if (temperature < -40 && temperature > 40) {
+//   console.log("Maybe going outside isn't such a great idea…");
+// }
 
 // const isCitizen = true;
 // const age = 16;
@@ -21,3 +20,5 @@ if (temperature < -40 && temperature > 40) {
 // if (isCitizen && age > 18) {
 //   console.log("You are eligible to vote.");
 // }
+
+//WHICH SCHOOL  
