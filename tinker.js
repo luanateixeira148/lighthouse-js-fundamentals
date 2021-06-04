@@ -251,3 +251,45 @@
 //     circle;
 //   }
 // }
+
+
+// ARRAYS
+
+// LOOPING - RANGE
+
+// function range(start, end, step) {
+//   const array = [];
+
+//   let x = start;
+//   while (x < end) {
+//     array.push(x);
+//     x = x + step;  
+//   }
+//   return array;
+// }
+
+// console.log(range(0,10,2));
+
+
+// LOOPING LASTINDEXOF
+
+// function lastIndexOf(array, index) {
+//   for (let i = array.length - 1; i >= 0; i--) {
+//     if (array[i] === index) {
+//       return i;
+//     } 
+//   }
+//   return -1;
+// }
+
+// console.log(lastIndexOf([ 0, 1, 4, 1, 2 ], 2));
+
+
+// CONCATENATE ARRAYS
+
+// function concat(arr1, arr2) {
+//   let arr3 = arr1.concat(arr2);
+//   return arr3;
+// }
+
+// console.log(concat([ 1, 2, 3 ], [ 4, 5, 6 ]));
