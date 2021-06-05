@@ -293,3 +293,38 @@
 // }
 
 // console.log(concat([ 1, 2, 3 ], [ 4, 5, 6 ]));
+
+
+// OBJECTS - TRASH TO TREASURE
+
+// function smartGarbage(trash, bins) {
+//   if (trash === 'waste') {
+//     bins['waste']++
+//   } else if (trash === 'recycling') {
+//     bins['recycling']++
+//   } else if (trash === 'compost') {
+//     bins['compost']++
+//   }
+//   return bins;
+// }
+
+// console.log(smartGarbage('recycling', { waste: 4, recycling: 2, compost: 5 }));
+
+
+// OBJECTS - DRIVING MAYOR DAISY
+
+// function carPassing(cars, speed) {
+//   let time = Date.now();
+//   let newCar = {
+//     time: time,
+//     speed: speed,
+//   }
+//   cars.push(newCar);
+//   return cars;
+// }
+
+// OBJECTS - WE ARE ROOTING FOR YOU
+
+// function judgeVegetable(vegetables, metric) {
+
+// }
