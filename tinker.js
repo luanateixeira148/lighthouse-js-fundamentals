@@ -328,3 +328,87 @@
 // function judgeVegetable(vegetables, metric) {
 
 // }
+
+// const moves = ['north', 'north', 'west', 'west', 'north', 'east','north']  
+
+// const finalPosition = function (moves) {
+//   let p = [0, 0];
+
+//   for (let move of moves){
+//     if (move === 'east') {
+//       p[0]++;
+//     } else if (move === 'west') {
+//       p[0]--;
+//     } else if (move === 'north') {
+//       p[1]++;
+//     } else if (move === 'south') {
+//       p[1]--;
+//     }
+//   }
+//   return p;
+// }
+
+// console.log(finalPosition(moves));
+
+// function range(start, end, step) {
+//   let arr = [];
+
+//   for (i = start; i <= end; i += step) {
+//     arr.push(i);
+//   }
+
+//   return arr;
+// }
+
+// function range(start, end, step) {
+//   let arr = [];
+//   if (start >= end || step <= 0){
+//     arr = [];
+//   } else {
+//     for (let i = start; i <= end; i += step) {
+//       arr.push(i);
+//     }
+//   }
+//   return arr;
+// }
+
+// console.log(range(0, 10, 2));
+// console.log(range(10, 30, 5));
+// console.log(range(-5, 2, 3));
+
+
+
+// const judgeVegetable = function(vegetables, metric) {
+//   let points = 0;
+//   let winner;
+
+//   for (let i = 0; i < vegetables.length; i++){
+
+//     if (vegetables[i][metric] > points){
+//       points = vegetables[i][metric];
+//       winner = vegetables[i]['submitter'];
+//     }
+//   }
+//   return winner;
+// };
+
+// console.log(judgeVegetable(
+//   [
+//     {
+//       submitter: 'Old Man Franklin',
+//       redness: 10,
+//       plumpness: 5
+//     },
+//     {
+//       submitter: 'Sally Tomato-Grower',
+//       redness: 2,
+//       plumpness: 8
+//     },
+//     {
+//       submitter: 'Hamid Hamidson',
+//       redness: 4,
+//       plumpness: 3
+//     }
+//   ], 'redness'
+// ))
+
